@@ -7,12 +7,7 @@ html {
     display: flex;
   }
   
-  .main-content {
-    flex: 2;
-    padding: 20px;
-  }
-  
-  .sidebar {
+  .table {
     flex: 1;
     background-color: #f4f4f4;
     padding: 10px;
@@ -54,6 +49,8 @@ h1 {
 
 p {
     line-height: 1.4em;
+    flex: 2;
+    padding: 20px;
 }
 
 #blog {
